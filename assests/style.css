@@ -6,8 +6,44 @@
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.header {
+header {
+    padding: 20px 10px;
+    display: flex;
+    background-color: #E7D2CC;
+    position: relative;
+}
+header h1 {
+    font-weight: bold;
+    font-size: 40px;
+    margin: 0;
+    text-align: center;
+}
+header nav {
+    margin: 10px 5px;
+}
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+    margin-left: 70px;
+}
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: bolder;
+    font-size: 1.75vw;
+    color: black;
+    text-decoration: none;
+}
+.hero {
     padding: 20px;
-    flex: auto;
-    background-color: coral;
+    border-radius: 10px;
+    margin: 30px;
+    background-color: #B9B7BD;
+}
+.hero h3 {
+    font-size: 25px;
 }
